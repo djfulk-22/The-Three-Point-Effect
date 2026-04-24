@@ -3,7 +3,7 @@
 ## Overview
 This project analyzes historical NBA team-level data to examine the relationship between three-point shooting and team success. The goal is to understand whether teams that shoot more threes, make more threes, or shoot a higher three-point percentage tend to win more games.
 
-## Business / Research Question
+## Research Question
 How strongly are NBA teams’ three-point shooting statistics related to winning percentage?
 
 More specifically, the project explores whether three-point percentage, three-point makes per game, and three-point attempts per game are useful indicators of team success across NBA seasons.
@@ -43,3 +43,5 @@ Overall, the project suggests that three-point shooting is meaningfully related 
 │   ├── failed_teamyearbyyear_requests.csv
 │   └── nba_teamyearbyyear_cache/
 ├── README.md
+```
+The notebook uses project-relative file paths, so the data paths should not need to be manually changed as long as the repository structure stays the same. If the project is cloned, moved, or forked, the notebook will reference the local project folder and write outputs to the `data/` directory automatically.

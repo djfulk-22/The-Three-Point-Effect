@@ -33,6 +33,18 @@ The visualizations also show that the relationship is not perfect. Some teams, s
 
 Overall, the project suggests that three-point shooting is meaningfully related to winning, but it is not the only factor that determines team success.
 
+## Key Visualizations
+
+### Growth of Three-Point Shooting Over Time
+![Evolution of NBA three-point attempts, makes, and shooting percentage](figures/three_point_trends.png)
+
+This visualization shows how three-point usage has increased across NBA seasons. Both three-point attempts per game and makes per game rise sharply over time, especially in the modern NBA, while league-wide three-point percentage improves earlier and then becomes more stable.
+
+### Three-Point Percentage and Winning Percentage
+![Relationship between NBA three-point percentage and win percentage](figures/win_pct_vs_fg3_pct.png)
+
+This scatterplot shows the relationship between team three-point percentage and win percentage. The highlighted outliers help show how team success can look different across eras: the 1982 Los Angeles Lakers won at a high rate despite very low three-point usage, while the 2015 Golden State Warriors represent a modern high-volume, high-efficiency three-point team.
+
 ## Repository Structure
 ```text
 .
